@@ -1,5 +1,13 @@
 package lab10;
 
+
+/*
+ * testSelectionSort.java
+ *
+* To change this template, choose Tools | Template Manager
+ * and open the template in the editor.
+ */
+
 import static org.junit.Assert.*;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,6 +23,8 @@ public class testSelectionSort {
 	}
 
 	public testSelectionSort() {
+
+    public testSelectionSort() {
     }
 
     public void testPositive(){
@@ -33,6 +43,7 @@ public class testSelectionSort {
         Sortedarr[4] = 10;
 
         /** add tests to check for this unit test **/
+
         arr = list.basicSelectionSort(arr);
         assertEquals(Sortedarr[0], arr[0]);
         assertEquals(Sortedarr[1], arr[1]);
@@ -42,6 +53,7 @@ public class testSelectionSort {
     }
 
     public void testNegative(){
+
 
 	int[] arr = new int[5];
 	    arr[0] = -8;
@@ -117,6 +129,7 @@ public class testSelectionSort {
 	    assertEquals(Sortedarr[2], arr[2]);
 	    assertEquals(Sortedarr[3], arr[3]);
 	    assertEquals(Sortedarr[4], arr[4]);
+
         /** Test data contains duplicates **/
     }
 
